@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.back-link {
+    text-decoration: none;
+    font-size: 200%;
+    display: block;
+    margin: 1%;
+    color: black;
+    transition: color 0.3s;
+}
+
+    a:hover {
+        text-decoration: underline;
+        color: #C5E2FF;
+    }
+
+h1 {
+    margin: 10%;
+    font-size: 300%;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
