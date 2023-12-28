@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.text-port {
+    text-align: center;
+    margin: 2% 0 2% 0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* for prof D4CCFF, for light F0D7FB */
+
+.nav-links {
+    display: flex;
+    width: auto;
+    margin: 20px 0 0 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    margin-right: 45px;
+    font-size: 140%;
+    font-family: Segoe UI;
+}
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(146, 146, 243);
+    }
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: #E6E6FA;
+    border-radius: 2%;
+    margin: 50px 420px 50px 420px;
+    padding: 3%;
+}
+
+    .intro h1 {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 400%;
+    }
+
+    .intro p {
+        color: white;
+        font-size: 150%;
+    }
+
+
+img {
+    width: 35%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: dashed 9px white;
+}

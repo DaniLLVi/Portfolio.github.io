@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.back-link {
+    text-decoration: none;
+    font-size: 200%;
+    display: block;
+    margin: 1%;
+    color: black;
+    transition: color 0.3s;
+}
+
+    a:hover {
+        text-decoration: underline;
+        color: #FFD1DC;
+    }
+
+.main-body {
+    text-align: left;
+    border-radius: 3%;
+    margin: 50px 400px;
+    padding: 3%;
+    background-color: #FFD1DC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+}
